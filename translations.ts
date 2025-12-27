@@ -1,0 +1,47 @@
+
+import { Language } from './types';
+
+export const translations: Record<Language, Record<string, string>> = {
+  en: {
+    'SKYQUEST': 'Skybound Saga',
+    'SETTING': 'SETTING', 'UPDATE': 'UPDATE',
+    'PLAY': 'PLAY',
+    'GET_READY': 'GET READY!', 'TAP_OR_SPACE': 'Tap to Start Flight',
+    'GAME_OVER': 'GAME OVER', 'VICTORY': 'FLIGHT COMPLETE!', 'DEFEAT': 'CRASHED',
+    'SCORE': 'SCORE', 'HIGH_SCORE': 'BEST', 'TRY_AGAIN': 'RETRY', 'MENU': 'MENU',
+    'BACK': 'BACK',
+    'LANGUAGE': 'LANGUAGE', 'DISPLAY': 'Display', 'ENTER_FULLSCREEN': 'Enter Fullscreen', 'EXIT_FULLSCREEN': 'Exit Fullscreen', 'FULLSCREEN_SHORTCUT_HINT': 'Shortcut: Shift + F', 'ENTER_MOBILE_FULLSCREEN': 'Mobile Fullscreen', 'MOBILE_FULLSCREEN_HINT': 'Tap for an immersive experience!',
+    'SOUND': 'Sound', 'ON': 'ON', 'OFF': 'OFF',
+    'WHATS_NEW': "WHAT'S NEW", 'VERSION': 'VERSION', 'ADDITIONS': 'ADDITIONS', 'CHANGES': 'CHANGES',
+    'CHARACTER': 'CHARACTER', 'BACKGROUND': 'BACKGROUND', 'TRAILS': 'TRAILS', 'PARTNERS': 'PARTNERS', 'PIPES': 'PIPES', 'DRAWS': 'DRAWS',
+    'DIAMONDS': 'DIAMONDS',
+    'SELECT': 'SELECT', 'SELECTED': 'SELECTED', 'SHOP': 'SHOP', 'BUY': 'BUY',
+    'PURCHASE_SUCCESS': 'Purchase Successful!', 'NOT_ENOUGH_COINS': 'Not enough coins!',
+    'None': 'None', 
+    'Retro Pip': 'Retro Pip',
+    'Pixel Plains': 'Pixel Plains',
+    'Bit Stream': 'Bit Stream',
+    'Cyber Talon': 'Cyber Talon',
+    'Voxel Green': 'Voxel Green',
+    'Cloud Puff': 'Cloud Puff',
+    'Candy Kingdom': 'Candy Kingdom',
+    'Rainbow Dust': 'Rainbow Dust',
+    'Sugar Cane': 'Sugar Cane',
+    'Industrial': 'Industrial', 'Neon Cyber': 'Neon Cyber', 'Midas Gold': 'Midas Gold', 'Crimson Wisp': 'Crimson Wisp', 'Lucky Star': 'Lucky Star',
+    'REVIVED': 'REVIVED!',
+    'COLLECTION': 'COLLECTION',
+    'COLLECTION_RANK': 'Collection Rank',
+    'TOTAL_POINTS': 'Total Points',
+    'NEXT_COLLECTION_RANK': 'Next Collection Rank',
+    'AMATEUR_COLLECTOR': 'Amateur Collector',
+    'JUNIOR_COLLECTOR': 'Junior Collector',
+    'RARITY': 'Rarity',
+    'COMMON': 'Common',
+    'RARE': 'Rare',
+    'DELUXE': 'Deluxe',
+    'LEGENDARY': 'Legendary',
+    'DIVINE': 'Divine',
+    'EVENTS': 'EVENTS', 'NEWS': 'NEWS', 'STAY_TUNED': 'Stay tuned for exciting challenges!',
+    'REWARDS': 'Rewards', 'CLAIM': 'Claim'
+  }
+};

@@ -1,0 +1,26 @@
+{
+  "name": "skyquest-odyssey",
+  "private": true,
+  "version": "5.0.4",
+  "type": "module",
+  "homepage": "https://<YOUR-USERNAME>.github.io/<YOUR-REPO-NAME>/",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "gh-pages": "^6.1.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}
